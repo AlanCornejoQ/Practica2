@@ -82,11 +82,11 @@ jobs:
     # =========================
     - name: SCA Node Dependencies
       run: |
-        cd frontend && npm audit --audit-level=critical
-        cd ../backend/users-service && npm audit --audit-level=critical
-        cd ../backend/academic-service && npm audit --audit-level=critical
-        cd ../backend/api-gateway && npm audit --audit-level=critical
-
+        (cd frontend && npm audit --audit-level=critical)
+        (cd backend/users-service && npm audit --audit-level=critical)
+        (cd backend/academic-service && npm audit --audit-level=critical)
+        (cd backend/api-gateway && npm audit --audit-level=critical)
+        
     # =========================
     # 5. SAST – Semgrep
     # =========================
