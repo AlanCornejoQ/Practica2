@@ -1,5 +1,6 @@
 # Práctica 2: Integración DevSecOps CI/CD
 ### Nombre: Elmer Alan Cornejo Quito
+### Respositorio: [https://github.com/AlanCornejoQ/Practica2]
 ## 1. Justificación Técnica de Decisiones (Pipeline DevSecOps)
 
 En el presente repositoro se ha diseñado e implementado un pipeline CI/CD automatizado mediante gitHub Actions. El objetivo es garantizar que el código solo avance hacia la fase de despliegue si cumple con estrictos criterios funcionales y de seguridad, aplicando un enfoque DevSecOps.
